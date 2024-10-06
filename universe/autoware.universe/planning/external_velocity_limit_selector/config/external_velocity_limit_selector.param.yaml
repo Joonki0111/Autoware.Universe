@@ -15,4 +15,4 @@
       max_jerk: 1.5 # max jerk limit [m/sss]
 
     # motion state constraints
-    max_velocity: 20.0
+    max_velocity: 20.0 # max velocity limit [m/s]

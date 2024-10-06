@@ -29,30 +29,12 @@
   <arg name="launch_vehicle_interface" default="true" description="launch vehicle interface"/>
   <!-- Control -->
   <arg name="check_external_emergency_heartbeat" default="false"/>
-  
   <!-- Map -->
-  <!--GGM-->
-  <!-- <arg name="lanelet2_map_file" default="ggm_mgrs_v12.osm" description="lanelet2 map file name"/> -->
-  <!-- <arg name="pointcloud_map_file" default="ggm_modified_mgrs.pcd" description="pointcloud map file name"/>   -->
-  
-  <!--CU-->
-  <arg name="lanelet2_map_file" default="cu_lanelet_v17.osm" description="lanelet2 map file name"/>
-  <arg name="pointcloud_map_file" default="cu_modified_mgrs_v2.pcd" description="pointcloud map file name"/>
-  <!-- <arg name="lanelet2_map_file" default="cu_lanelet_v17.osm" description="lanelet2 map file name"/> -->
-  <!-- <arg name="pointcloud_map_file" default="map_v12.pcd" description="pointcloud map file name"/>  -->
-
-
-  <!--KATECH-->
-  <!-- <arg name="lanelet2_map_file" default="KATECH_lanelet2.osm" description="lanelet2 map file name"/> -->
-  <!-- <arg name="pointcloud_map_file" default="map_moved.pcd" description="pointcloud map file name"/> -->
-
-  <!--CarMaker-->
-  <!-- <arg name="lanelet2_map_file" default="new_lanelet2_maps.osm" description="lanelet2 map file name"/> -->
-  <!-- <arg name="pointcloud_map_file" default="map_hjk.pcd" description="pointcloud map file name"/> -->
-
+  <arg name="lanelet2_map_file" default="YongIn_mgrs_v2.3.osm" description="lanelet2 map file name"/>
+  <arg name="pointcloud_map_file" default="CM_mgrs.pcd" description="pointcloud map file name"/>
   <!-- System -->
   <arg name="system_run_mode" default="online" description="run mode in system"/>
-  <arg name="launch_system_monitor" default="true" description="launch system monitor"/>
+  <arg name="launch_system_monitor" default="false" description="launch system monitor"/> <!--HJK_241006-->
   <arg name="launch_dummy_diag_publisher" default="false" description="launch dummy diag publisher"/>
   <arg name="system_error_monitor_param_path" default="$(find-pkg-share autoware_launch)/config/system/system_error_monitor/system_error_monitor.param.yaml"/>
   <!-- Tools -->

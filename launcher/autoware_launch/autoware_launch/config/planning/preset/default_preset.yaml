@@ -104,7 +104,7 @@ launch:
 
   - arg:
       name: motion_velocity_smoother_type
-      default: L2 #HJK_240619 JerkFiltered
+      default: JerkFiltered #HJK_240619 JerkFiltered
       # option: JerkFiltered
       #         L2
       #         Linf(Unstable)
